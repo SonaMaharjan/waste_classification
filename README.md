@@ -1,29 +1,29 @@
-# ♻️ Waste Classification with Deep Learning
+# Waste Classification with Deep Learning
 
 A simple computer vision project to classify images of waste into 10 categories for recycling.
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 Sorting garbage by hand is slow and messy. In this project, a deep learning model is built to automatically recognize different types of waste from images.
 
 The model classifies items into **10 categories**:
 
-* 🔋 **Battery**
-* 🍏 **Biological** (food scraps and organic waste)
-* 📦 **Cardboard**
-* 👕 **Clothes**
-* 🍾 **Glass**
-* 🥫 **Metal**
-* 📰 **Paper**
-* 🥤 **Plastic**
-* 👟 **Shoes**
-* 🗑️ **Trash** (non-recyclable waste)
+* **Battery**
+* **Biological** (food scraps and organic waste)
+* **Cardboard**
+* **Clothes**
+* **Glass**
+* **Metal**
+* **Paper**
+* **Plastic**
+* **Shoes**
+* **Trash** (non-recyclable waste)
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Data Loading**: Images are loaded and resized to $224 \times 224$ pixels.
 2. **Data Augmentation**: Small random flips and rotations are applied to help the model learn from different angles.
@@ -33,7 +33,7 @@ The model classifies items into **10 categories**:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * **Source**: [Garbage Classification v2](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2) on Kaggle
 * **Images**: ~13,000 images
@@ -42,7 +42,7 @@ The model classifies items into **10 categories**:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 * **Python**
 * **TensorFlow / Keras**
@@ -51,7 +51,7 @@ The model classifies items into **10 categories**:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone this repository
 ```bash
